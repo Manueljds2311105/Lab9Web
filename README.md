@@ -459,21 +459,6 @@ header {
 - URL pattern: `index.php?page=module/action`
 - Contoh: `index.php?page=user/list`
 
-### 4. **Maintainability**
-- Mudah menambah module baru
-- Mudah mengubah tampilan (edit header/footer)
-- Mudah debug (setiap module terpisah)
-
----
-
-## Kelebihan Sistem Modular
-
-✅ **Organized**: Code terstruktur dengan rapi
-✅ **Reusable**: Component dapat digunakan ulang
-✅ **Scalable**: Mudah dikembangkan
-✅ **Maintainable**: Mudah maintenance
-✅ **Team-friendly**: Beberapa developer bisa kerja parallel
-
 ---
 
 ## Perbedaan dengan Praktikum 8
@@ -483,8 +468,6 @@ header {
 | Struktur | File terpisah tanpa pola | Modular dengan routing |
 | Template | Setiap file punya header/footer sendiri | Satu template untuk semua |
 | URL | File langsung (tambah.php) | Routing (index.php?page=user/add) |
-| Maintainability | Sulit | Mudah |
-| Scalability | Terbatas | Fleksibel |
 
 ---
 
@@ -495,8 +478,7 @@ Praktikum ini berhasil mengimplementasikan konsep modularisasi pada aplikasi PHP
 - ✅ Template yang reusable (header, footer)
 - ✅ Module terpisah per fitur (user, auth)
 - ✅ CRUD lengkap dengan modular approach
-- ✅ Code yang lebih maintainable dan scalable
 
-Modularisasi membuat aplikasi lebih terorganisir, mudah dikembangkan, dan mudah dimaintain.
+Modularisasi membuat aplikasi lebih terorganisir.
 
 ---
